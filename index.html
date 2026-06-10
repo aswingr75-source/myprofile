@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Aswin GR — Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Monoton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="neon-stripes"></div>
+    <!-- Site loading interface -->
+    <div id="siteLoader" class="site-loader" aria-hidden="false">
+      <div class="loader-card">
+        <div class="loader-logo">ASWIN GR</div>
+        <div class="loader-progress"><div class="loader-bar" id="loaderBar"></div></div>
+        <div class="loader-text">Welcome — preparing the experience...</div>
+      </div>
+    </div>
+    <div class="orbs">
+      <div class="orb orb--1"></div>
+      <div class="orb orb--2"></div>
+      <div class="orb orb--3"></div>
+    </div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo-wrap"><a class="logo" href="#hero">ASWIN GR</a></div>
+        <nav class="nav" id="nav">
+          <a href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section id="hero" class="hero container">
+        <div class="hero-card">
+          <div class="hero-left">
+            <div class="avatar-wrap">
+              <img class="avatar" src="aswin.jpeg" alt="Aswin GR">
+            </div>
+          </div>
+          <div class="hero-right">
+            <h1 class="display-name">Aswin GR</h1>
+            <p class="subtle">Computer Science Engineering Student<br>Toc H Institute of Science and Technology</p>
+            <p class="lead">I am a passionate CSE student learning software development with Python and C. I enjoy building clean, minimal experiences and exploring new coding challenges.</p>
+            <div class="hero-actions">
+              <a class="btn btn-glow" href="assets/AswinGR_Resume.pdf" target="_blank" rel="noopener">View Resume</a>
+              <a class="btn btn-outline" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section container">
+        <h2 class="section-title">About Me</h2>
+        <div class="glass about-card">
+          <div class="about-left">
+            <p><strong>Introduction:</strong> I am a 2nd-year B.Tech student exploring AI/ML and building full-stack projects with a focus on clean design and efficient solutions.</p>
+            <p><strong>Career Goals:</strong> Develop production-ready AI systems and contribute to impactful open-source software.</p>
+            <p><strong>Interests:</strong> Artificial Intelligence, Machine Learning, Full Stack Development, Problem Solving.</p>
+            <p class="muted">Currently: 2nd Year — Toc H Institute of Science and Technology</p>
+          </div>
+          <div class="about-right">
+            <h3 class="mini-title">Areas of Interest</h3>
+            <ul class="interest-list">
+              <li>Artificial Intelligence</li>
+              <li>Machine Learning</li>
+              <li>Full Stack Development</li>
+              <li>Problem Solving</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section container">
+        <h2 class="section-title">Skills</h2>
+        <div class="glass skills-card">
+          <div class="skill-tags">
+            <span class="tag glow">Python</span>
+            <span class="tag glow">C</span>
+            <span class="tag glow">HTML</span>
+            <span class="tag glow">CSS</span>
+            <span class="tag glow">Git</span>
+            <span class="tag glow">GitHub</span>
+            <span class="tag glow">Problem Solving</span>
+            <span class="tag glow">Algorithm</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section id="education" class="section container">
+        <h2 class="section-title">Education</h2>
+        <div class="glass education-card">
+          <h3>CSE, TOCH</h3>
+          <p>Currently in 2nd year of B.Tech Computer Science and Engineering — Toc H Institute of Science and Technology</p>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <article class="glass project-card">
+            <div class="project-media" style="background-image:url('assets/project-placeholder.png')"></div>
+            <h4>AI Chatbot</h4>
+            <p>Conversational assistant demonstration with intent detection and response generation.</p>
+            <div class="project-actions">
+              <a class="btn small" href="#">GitHub</a>
+              <a class="btn small" href="#">Live Demo</a>
+            </div>
+          </article>
+
+          <article class="glass project-card">
+            <div class="project-media" style="background-image:url('assets/project-placeholder.png')"></div>
+            <h4>Portfolio Website</h4>
+            <p>Personal portfolio showcasing projects, skills, and contact information with a modern UI.</p>
+            <div class="project-actions">
+              <a class="btn small" href="#">GitHub</a>
+              <a class="btn small" href="#">Live Demo</a>
+            </div>
+          </article>
+
+          <article class="glass project-card">
+            <div class="project-media" style="background-image:url('assets/project-placeholder.png')"></div>
+            <h4>Student Management System</h4>
+            <p>Full-stack web application to manage student records, authentication and roles.</p>
+            <div class="project-actions">
+              <a class="btn small" href="#">GitHub</a>
+              <a class="btn small" href="#">Live Demo</a>
+            </div>
+          </article>
+
+          <article class="glass project-card">
+            <div class="project-media" style="background-image:url('assets/project-placeholder.png')"></div>
+            <h4>Machine Learning Project</h4>
+            <p>Model training and evaluation pipeline with visualization of results.</p>
+            <div class="project-actions">
+              <a class="btn small" href="#">GitHub</a>
+              <a class="btn small" href="#">Live Demo</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Certifications removed -->
+
+      <!-- SOCIAL -->
+      <section id="social" class="section container">
+        <h2 class="section-title">Social</h2>
+          <div class="social-row">
+            <a class="social-btn" href="https://www.linkedin.com/in/aswin-g-r-52012037b?utm_source=share_via&utm_content=profile&utm_medium=member_android" data-url="https://www.linkedin.com/in/aswin-g-r-52012037b?utm_source=share_via&utm_content=profile&utm_medium=member_android">LinkedIn</a>
+            <a class="social-btn" href="https://github.com/aswingr75-source" data-url="https://github.com/aswingr75-source">GitHub</a>
+            <a class="social-btn" href="https://www.instagram.com/__.aswiiinnn.__?igsh=dmx6c2VpZzE3dTNy" data-url="https://www.instagram.com/__.aswiiinnn.__?igsh=dmx6c2VpZzE3dTNy">Instagram</a>
+            <a class="social-btn" href="mailto:aswingr75@gmail.com" data-url="mailto:aswingr75@gmail.com">Email</a>
+          </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section container">
+        <h2 class="section-title">Contact</h2>
+        <div class="glass contact-card">
+          <form id="contactForm" class="contact-form">
+            <label class="field">Name<input type="text" name="name" required></label>
+            <label class="field">Email<input type="email" name="email" required></label>
+            <label class="field">Message<textarea name="message" rows="5" required></textarea></label>
+            <div class="form-actions"><button class="btn btn-glow" type="submit">Send Message</button></div>
+            <p id="formStatus" class="muted"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <small>© 2026 Aswin GR</small>
+        <div class="footer-social">
+          <a href="#">LinkedIn</a>
+          <a href="#">GitHub</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Chat widget -->
+    <div class="chat-toggle" id="chatToggle" aria-label="Open chat">💬</div>
+    <div class="chat-window" id="chatWindow" aria-hidden="true">
+      <div class="chat-header">
+        <div class="chat-title">Chat with Aswin</div>
+        <button class="chat-close" id="chatClose" aria-label="Close chat">×</button>
+      </div>
+      <div class="chat-body">
+        <div class="chat-welcome">
+          <strong>Hello — I'm Aswin 👋</strong>
+          <p>Ask me about my projects, studies, or how I build things. I'll reply as me.</p>
+          <button class="btn btn-glow" id="startChat">Start Chat</button>
+        </div>
+        <div class="chat-messages" id="chatMessages" role="log" aria-live="polite"></div>
+      </div>
+      <form class="chat-input" id="chatForm" autocomplete="off">
+        <input id="chatInput" name="message" placeholder="Type a message and press Enter" />
+        <button class="btn btn-outline" type="submit">Send</button>
+      </form>
+    </div>
+    <!-- Email modal (shows email instead of opening mail client) -->
+    <div id="emailModal" class="email-modal" aria-hidden="true">
+      <div class="email-modal-card">
+        <button class="email-close" id="emailClose" aria-label="Close">×</button>
+        <div class="email-modal-body">
+          <div class="email-label">Email</div>
+          <div class="email-value" id="emailValue">aswingr75@gmail.com</div>
+          <div class="email-actions">
+            <button class="btn btn-glow" id="copyEmail">Copy Email</button>
+            <button class="btn btn-outline" id="openMailClient">Open Mail Client</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
